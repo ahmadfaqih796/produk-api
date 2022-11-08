@@ -1,5 +1,8 @@
 const express = require("express");
 const aplikasi = express();
+// untuk memanggil folder controllers
+const controllers = require("./controllers");
+controllers(aplikasi);
 
 let karyawan = [
   {
