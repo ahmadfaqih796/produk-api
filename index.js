@@ -16,5 +16,5 @@ let karyawan = [
 aplikasi.get("/", function (request, response) {
   response.json({ pesan: "data berhasil di ambil", data: karyawan });
 });
-
+// ini komentar
 aplikasi.listen(3002);
